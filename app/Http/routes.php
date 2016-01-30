@@ -10,6 +10,7 @@ $router->get('contact', 'ContactController@showForm');
 Route::post('contact', 'ContactController@sendContactInfo');
 get('rss', 'BlogController@rss');
 get('sitemap.xml', 'BlogController@siteMap');
+get('about', 'BlogController@about');
 
 // Admin area
 get('admin', function () {
